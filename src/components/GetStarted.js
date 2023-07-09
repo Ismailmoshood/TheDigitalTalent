@@ -6,9 +6,10 @@ export default function GetStarted(){
       <p style={{marginTop: 15, marginBottom: 70}}>One-time fee of $250 to take conversations off the platform.</p>
       <button className="button" style={{position: "initial", height: 45}}>Get Started</button>
       </div>
-      <div>
-         <img src="/assets/images/Ellipse 7.png" alt=" " />
-      </div>
+         <div id="portrait-container">
+             <img id="potrait" src="/assets/images/waist-up-portrait.png" alt=" " />
+            <img id="semi-circle" src="/assets/images/Ellipse 7.png" alt=" " />
+         </div>
       </div>
    )
 }

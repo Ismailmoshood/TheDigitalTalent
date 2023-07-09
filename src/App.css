@@ -95,7 +95,7 @@ margin-right: 10px;
   margin-right: 10px;
 }
 #section2{
-  padding: 10px 0 10px 70px;
+  padding: 10px 0 10px 60px;
   margin-bottom: 120px;
 }
 .section2-title{
@@ -106,7 +106,7 @@ margin-right: 10px;
   margin: 10px 0;
 }
 #section3{
-  padding: 10px 70px;
+  padding: 10px 60px;
   background: rgba(5, 19, 45, 0.15);
   height: 850px;
   display: flex;
@@ -131,7 +131,7 @@ margin-right: 10px;
 }
 #section4{
   height: 900px;
-  padding: 96px 70px 180px 70px;
+  padding: 96px 60px 180px 60px;
   text-align: center;
 }
 #section4 h2{
@@ -139,17 +139,94 @@ margin-right: 10px;
 }
 .card{
 width: 260px;
-height: 210px;
+height: fit-content;
 padding: 30px 22px;
 border-radius: 20px;
 box-shadow: 2px 2px 15px 0px rgba(0, 0, 0, 0.10);
 margin: 27px;
 }
 #section5{
+  margin-top: 50px;
   background-color: #F9DEDE;
   height: 550px;
   display: flex;
   justify-content: space-between;
   padding: 50px 50px 0 90px;
-  
+}
+#potrait{
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+}
+#semi-circle{
+  margin-top: 205px;
+}
+#section6{
+  margin-top: 5px;
+  background-color: #1B1D28;
+  height: 600px;
+  color: #D9D9D9;
+  padding: 50px 115px 0 100px;
+}
+.upper-footer{
+justify-content: space-between;
+}
+.footer-icons p, .footer-icons img{
+  margin-right: 24px;
+}
+#line{
+  width: 100%;
+  margin-top: 45px;
+  margin-bottom: 80px;
+}
+.lower-footer{
+  display: flex;
+justify-content: space-between;
+}
+.lower-footer h4{
+margin-bottom: 35px;
+}
+.lower-footer p{
+margin-bottom: 15px;
+}
+.store-icons{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-left: -20px;
+}
+.store-icons img{
+  margin-right: 10px;
+}
+.store-icons p{
+  margin-bottom: 0px;
+}
+#apps{
+  margin: 80px 0 15px -20px ;
+}
+#footer-input{
+  display: flex;
+  width: 280px;
+height: 58px;
+}
+#ftr-input{
+/* border-radius: 8px; */
+background: rgba(143, 146, 152, 0.15);
+border: none;
+font-size: small;
+width: 100%;
+padding-left: 24px;
+color: #D9D9D9;
+border-top-left-radius: 8px;
+border-bottom-left-radius: 8px;
+
+}
+#footer-btn{
+  background: rgba(143, 146, 152, 0.15);
+  width: 50px;
+padding: 20px 14px 20px 3px;
+color: #FFF;
+border: none;
+border-top-right-radius: 8px;
+border-bottom-right-radius: 8px;
 }

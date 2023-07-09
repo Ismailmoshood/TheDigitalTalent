@@ -6,8 +6,8 @@ export default function Card({title, imageSrc, description, isFav, rating, revie
    const colouredStar = "/assets/images/Star 1.png"
    const star = ""
    return(
-      <div style={{width:310, marginRight: 25}}>
-         <img src={imageSrc} alt="" />
+      <div style={{width:290, marginRight: 20}}>
+         <img style={{width: 280, height: 190}} src={imageSrc} alt="" />
          <p className="ash">{title}</p>
          <h3>{description}</h3>
          <div className="flex" style={{justifyContent: "space-between"}}>

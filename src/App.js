@@ -1,5 +1,6 @@
 import './App.css';
 import Carousel from './components/Carousel';
+import Footer from './components/Footer';
 import Freelancer from './components/Freelancer';
 import GetStarted from './components/GetStarted';
 import Offer from './components/Offer';
@@ -13,6 +14,7 @@ function App() {
     <Freelancer />
     <Offer />
     <GetStarted />
+    <Footer />
     </div>
   );
 }

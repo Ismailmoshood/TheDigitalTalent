@@ -92,7 +92,7 @@ import Slider from 'react-slick'
     accessibility: false,
     arrows: false,
     autoplaySpeed: 1300,
-    autoplay: true
+    // autoplay: true
   };
    return(
       <div id="section2">
